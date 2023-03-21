@@ -1,0 +1,2088 @@
+                                        * {
+                                            /* transition: all 0.5s; */
+                                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .header {
+                                            width: 100%;
+                                        }
+                                        
+                                        .conteiner {
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .flexb {
+                                            padding-top: 1%;
+                                            margin: 0 25%;
+                                            padding-bottom: 1%;
+                                            text-align: center;
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        #logo h1 {
+                                            margin: 0 0 0 100px;
+                                            font-size: 15pt;
+                                        }
+                                        
+                                        #logo {
+                                            display: flex;
+                                            color: black;
+                                            font-size: 15pt;
+                                            margin: 1% 0px 0px 0px;
+                                            position: relative;
+                                        }
+                                        
+                                        .logo_image {
+                                            position: absolute;
+                                            top: -82%;
+                                            bottom: 0px;
+                                            right: 0px;
+                                            left: 20%;
+                                            width: 27%;
+                                            margin: 0.25em 0;
+                                        }
+                                        
+                                        nav {
+                                            margin-top: 1%;
+                                        }
+                                        
+                                        nav ol {
+                                            font-size: 10pt;
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            list-style: none;
+                                            padding: 0;
+                                            margin: 0;
+                                        }
+                                        
+                                        nav ol li a {
+                                            padding: 0.25em 1em;
+                                            color: black;
+                                            position: relative;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        nav ol li:hover {
+                                            text-decoration: underline;
+                                        }
+                                        
+                                        .tony_horton {
+                                            background-size: 100%;
+                                            display: flex;
+                                            margin: 0 auto;
+                                            width: 100%;
+                                            background-color: black;
+                                        }
+                                        
+                                        .image1 {
+                                            display: block;
+                                            width: 80%;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .programs {
+                                            width: 100%;
+                                            background-color: white;
+                                        }
+                                        
+                                        .container_prog {
+                                            width: 60%;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .prog_wrap {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            width: 80%;
+                                            margin: 0 auto 2% auto;
+                                        }
+                                        
+                                        .programs_text1 {
+                                            width: 30%;
+                                            font-size: 22pt;
+                                            color: red;
+                                            margin-top: 7%;
+                                            font-weight: 600;
+                                        }
+                                        
+                                        .prog_img1 {
+                                            display: block;
+                                            width: 80px;
+                                            height: 200px;
+                                            margin-top: 20%;
+                                        }
+                                        
+                                        .programs_text2 {
+                                            width: 70%;
+                                            display: block;
+                                            font-size: 17pt;
+                                            color: black;
+                                            margin-top: 5%;
+                                            font-weight: 600;
+                                        }
+                                        
+                                        .prog_images {
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .prog_img2 {
+                                            box-shadow: -100px -106px 0px -74px rgb(242, 0, 0);
+                                            display: block;
+                                            width: 100%;
+                                            margin-top: 2%;
+                                        }
+                                        
+                                        .prog_img3 {
+                                            display: block;
+                                            width: 50%;
+                                        }
+                                        
+                                        .prog_img4 {
+                                            float: right;
+                                            display: block;
+                                            width: 55%;
+                                            margin-top: 5%;
+                                            margin-right: 5%;
+                                        }
+                                        
+                                        .flexbox {
+                                            position: relative;
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .flex1 {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            margin: -8% 0 0 0;
+                                            width: 20%;
+                                            background-color: white;
+                                            border: solid 1px lightblue;
+                                            box-shadow: -3px 5px 10px rgba(0, 0, 0, 0.7);
+                                        }
+                                        
+                                        .text1 {
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .text1 h1 {
+                                            font-size: 11pt;
+                                            margin: 62% 23% 0% 0%;
+                                        }
+                                        
+                                        .text1 p {
+                                            font-size: 9pt;
+                                            margin: 15% 0 auto 0;
+                                            color: red;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .image2 {
+                                            display: block;
+                                            width: 35%;
+                                            height: 40%;
+                                            margin: 25% 0px 50% 5%;
+                                            background: url("https://i.ibb.co/6JLVT4q/d1d88beb304d082e37a8b584ff39c03d.png") no-repeat center center;
+                                            background-size: 100%;
+                                        }
+                                        
+                                        .flex2 {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            margin: -8% 0 0 0;
+                                            width: 20%;
+                                            background-color: red;
+                                            border: solid 1px lightblue;
+                                            box-shadow: -3px 5px 10px rgba(0, 0, 0, 0.7);
+                                        }
+                                        
+                                        .text2 {
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .text2 h1 {
+                                            font-size: 11pt;
+                                            margin: 62% 23% 0% 0%;
+                                            color: white;
+                                        }
+                                        
+                                        .text2 p {
+                                            font-size: 9pt;
+                                            margin: 15% 0 auto 0;
+                                            color: white;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .image3 {
+                                            display: block;
+                                            width: 35%;
+                                            height: 40%;
+                                            margin: 25% 0px 50% 5%;
+                                            background: url("https://apktada.com/storage/images/com/dikiyserge/fitplanner/com.dikiyserge.fitplanner_1.png") no-repeat center center;
+                                            background-size: 100%;
+                                        }
+                                        
+                                        .flex3 {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            margin: -8% 0 0 0;
+                                            width: 20%;
+                                            background-color: white;
+                                            border: solid 1px lightblue;
+                                            box-shadow: -3px 5px 10px rgba(0, 0, 0, 0.7);
+                                        }
+                                        
+                                        .text3 {
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .text3 h1 {
+                                            font-size: 10pt;
+                                            margin: 62% 23% 0% 0%;
+                                            color: black;
+                                        }
+                                        
+                                        .text3 p {
+                                            font-size: 9pt;
+                                            margin: 15% 0 auto 0;
+                                            color: red;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .image4 {
+                                            display: block;
+                                            width: 35%;
+                                            height: 40%;
+                                            margin: 25% 0px 50% 5%;
+                                            background: url("https://i.ibb.co/tCGrWyW/Idp-G-KFJWZ9-A4q-AMt9onbs-PMq-G8zo-UYF6f-WUIpe-QU7x-Ai-TM92-FBgh-S9xh-KW-y-Tj-SI29-Vzu0og-L9tx98-C0.webp") no-repeat center center;
+                                            background-size: 100%;
+                                        }
+                                        
+                                        .get_started {
+                                            width: 100%;
+                                            background-color: red;
+                                            justify-content: center;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            text-align: center;
+                                            font-size: 30pt;
+                                            color: white;
+                                            padding: 10% 0 0;
+                                            display: flex;
+                                            justify-content: space-around;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .button {
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            font-size: 25pt;
+                                            color: red;
+                                            padding: 1em 0 1em 0;
+                                            width: 25%;
+                                            text-align: center;
+                                            background-color: white;
+                                            margin: 5% auto;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .fitnes_from_within {
+                                            width: 100%;
+                                            background-color: red;
+                                            margin-top: 5%;
+                                        }
+                                        
+                                        .flexbox1 {
+                                            text-align: center;
+                                            position: relative;
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .flex4 {
+                                            border-right: solid 1px darkred;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            font-size: 27pt;
+                                            color: white;
+                                            padding: 1.5em 0.7em 1.5em;
+                                            margin: 12% 0 0 0;
+                                            width: 20%;
+                                            background-color: #FF4500;
+                                        }
+                                        
+                                        .flex5 {
+                                            border-right: solid 1px darkred;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            font-size: 27pt;
+                                            color: black;
+                                            padding: 1.5em 0.7em 1.5em;
+                                            margin: 12% 0 0 0;
+                                            width: 20%;
+                                            background-color: #FF4500;
+                                        }
+                                        
+                                        .flex6 {
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            font-size: 27pt;
+                                            color: white;
+                                            padding: 1.5em 0.7em 1.5em;
+                                            margin: 12% 0 0 0;
+                                            width: 20%;
+                                            background-color: #FF4500;
+                                        }
+                                        
+                                        .rule1 {
+                                            width: 100%;
+                                            background-color: white;
+                                        }
+                                        
+                                        .rule2 {
+                                            width: 100%;
+                                            background-color: black;
+                                        }
+                                        
+                                        .rule3 {
+                                            width: 100%;
+                                            background-color: white;
+                                        }
+                                        
+                                        .products {
+                                            width: 100%;
+                                            background-color: lightgrey;
+                                        }
+                                        
+                                        .products span {
+                                            color: red;
+                                        }
+                                        
+                                        .flexbox2 {
+                                            width: 100%;
+                                            display: flex;
+                                            position: relative;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .flex7 {
+                                            width: 15%;
+                                            padding: 0 1%;
+                                        }
+                                        
+                                        .flex8 {
+                                            width: 15%;
+                                            background-color: red;
+                                            padding: 0 1%;
+                                        }
+                                        
+                                        .flex9 {
+                                            width: 15%;
+                                            padding: 0 1%;
+                                        }
+                                        
+                                        .flex10 {
+                                            width: 15%;
+                                            padding: 0 1%;
+                                        }
+                                        
+                                        .flex11 {
+                                            width: 15%;
+                                            padding: 0 1%;
+                                        }
+                                        
+                                        .flex12 {
+                                            width: 15%;
+                                            padding: 0 1%;
+                                        }
+                                        
+                                        .image_protein {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                        
+                                        .wrapper {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .wrapper_info {
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            align-items: center;
+                                            margin: 20% 0;
+                                        }
+                                        
+                                        .wrapper_info1 {
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            margin: 20% 0;
+                                        }
+                                        
+                                        .descr {
+                                            color: white;
+                                            font-size: 15pt;
+                                            text-align: end;
+                                        }
+                                        
+                                        .descr1 {
+                                            color: white;
+                                            font-size: 15pt;
+                                            text-align: start;
+                                        }
+                                        
+                                        .block1 {
+                                            width: 37%;
+                                            background: red;
+                                        }
+                                        
+                                        .block2 {
+                                            width: 26%;
+                                            background: red;
+                                        }
+                                        
+                                        .product_img {
+                                            display: block;
+                                            width: 80%;
+                                            height: 60%;
+                                            margin: 35% auto 0 auto;
+                                        }
+                                        
+                                        .block3 {
+                                            width: 38%;
+                                            background: red;
+                                        }
+                                        
+                                        .circle {
+                                            width: 50px;
+                                            height: 50px;
+                                            border-radius: 100%;
+                                            border: solid 2px white;
+                                            background: red;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            margin-left: 5%;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .circle1 {
+                                            width: 50px;
+                                            height: 50px;
+                                            border-radius: 100%;
+                                            border: solid 2px white;
+                                            background: red;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            margin-right: 5%;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .plus1 {
+                                            width: 40px;
+                                            height: 3px;
+                                            background: white;
+                                        }
+                                        
+                                        .plus2 {
+                                            width: 40px;
+                                            height: 3px;
+                                            background: white;
+                                            transform: rotate(90deg);
+                                            margin: 0 auto;
+                                            position: absolute;
+                                        }
+                                        
+                                        .steps {
+                                            width: 100%;
+                                            background-color: white;
+                                        }
+                                        
+                                        .get_started1 {
+                                            width: 100%;
+                                            color: white;
+                                            justify-content: center;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            text-align: center;
+                                            background-image: url(https://d1v9fvdz0bmxov.cloudfront.net/user-content/australia/2560159/gallery/large_52115dd786c192d781ee3b0ac06abb9d.png);
+                                            background-size: cover;
+                                            background-position: 50% 47%;
+                                            display: flex;
+                                            justify-content: space-around;
+                                            flex-direction: column;
+                                        }
+                                        
+                                        .get_started1 h1 {
+                                            font-size: 50pt;
+                                            color: white;
+                                        }
+                                        
+                                        .get_started1 p {
+                                            font-size: 15pt;
+                                        }
+                                        
+                                        .button1 {
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bold;
+                                            font-size: 25pt;
+                                            color: white;
+                                            padding: 1em 0 1em 0;
+                                            width: 25%;
+                                            text-align: center;
+                                            background-color: red;
+                                            margin: 1% auto;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .process_title {
+                                            color: black;
+                                            font-size: 50pt;
+                                            text-align: center;
+                                            margin-top: 5%;
+                                            margin-bottom: 1%;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .process_subtitle {
+                                            color: red;
+                                            text-align: center;
+                                            font-size: 50pt;
+                                            font-weight: bold;
+                                            margin-top: 1%;
+                                            margin-bottom: 3%;
+                                        }
+                                        
+                                        .process_descr {
+                                            color: black;
+                                            text-align: center;
+                                            font-size: 15pt;
+                                            margin-top: 1%;
+                                            width: 30%;
+                                            margin: 0 auto;
+                                            margin-bottom: 5%;
+                                        }
+                                        
+                                        .process_wrapper {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            width: 80%;
+                                            margin: 0 auto;
+                                            padding: 2em;
+                                        }
+                                        
+                                        .process_icons img {
+                                            width: 100%;
+                                        }
+                                        
+                                        .icon_title {
+                                            font-size: 32px;
+                                            text-align: center;
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        .icon_title span {
+                                            color: red;
+                                        }
+                                        
+                                        .icon_subtitle {
+                                            color: black;
+                                            font-size: 15pt;
+                                            text-align: center;
+                                            width: 250px;
+                                            margin: 0 auto 5%;
+                                        }
+                                        
+                                        .products_title {
+                                            font-size: 55pt;
+                                            color: black;
+                                            font-weight: bold;
+                                            text-align: center;
+                                            padding-top: 5%;
+                                        }
+                                        
+                                        .products_subtitle {
+                                            font-size: 18px;
+                                            color: black;
+                                            text-align: center;
+                                            width: 70%;
+                                            margin: 5% auto 0;
+                                            padding-bottom: 5%;
+                                        }
+                                        
+                                        .img_rule3 {
+                                            width: 30%;
+                                            margin-bottom: 5%;
+                                        }
+                                        
+                                        .rule_wrap3 {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            width: 80%;
+                                            margin: 0 auto;
+                                            margin-top: 5%;
+                                        }
+                                        
+                                        .rule_wrapper3 {
+                                            padding-bottom: 5%;
+                                            margin-left: 10%;
+                                        }
+                                        
+                                        .rule_title3 {
+                                            font-size: 30px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .rule_title3 span {
+                                            color: red;
+                                        }
+                                        
+                                        .rule_subtitle3 {
+                                            font-size: 18px;
+                                            margin-top: 5%;
+                                        }
+                                        
+                                        .img_rule2 {
+                                            width: 25%;
+                                            height: 250px;
+                                            margin: 0 3% 5% 3%;
+                                            margin-bottom: 5%;
+                                            margin-right: 3%;
+                                            border-radius: 100%;
+                                        }
+                                        
+                                        .rule_wrap2 {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            width: 80%;
+                                            margin: 0 auto;
+                                            padding-top: 5%;
+                                        }
+                                        
+                                        .rule_wrapper2 {
+                                            padding-bottom: 5%;
+                                            margin-left: 10%;
+                                        }
+                                        
+                                        .rule_title2 {
+                                            font-size: 30px;
+                                            color: white;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .rule_title2 span {
+                                            color: red;
+                                        }
+                                        
+                                        .rule_subtitle2 {
+                                            font-size: 18px;
+                                            margin-top: 5%;
+                                            color: white;
+                                        }
+                                        
+                                        .img_rule1 {
+                                            width: 23%;
+                                        }
+                                        
+                                        .rule_wrap1 {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            width: 80%;
+                                            margin: 0 auto;
+                                            padding-top: 5%;
+                                        }
+                                        
+                                        .rule_wrapper1 {
+                                            padding-bottom: 5%;
+                                            margin-left: 10%;
+                                        }
+                                        
+                                        .rule_title1 {
+                                            font-size: 30px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .rule_title1 span {
+                                            color: red;
+                                        }
+                                        
+                                        .rule_subtitle1 {
+                                            font-size: 18px;
+                                            margin-top: 5%;
+                                        }
+                                        
+                                        .fitness_wrapper {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            width: 80%;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .fitness_text {
+                                            text-align: start;
+                                            width: 70%;
+                                            margin: 10% auto 0;
+                                            color: white;
+                                            font-size: 16pt;
+                                        }
+                                        
+                                        .fitness_img img {
+                                            width: 80%;
+                                            margin-top: 15%;
+                                        }
+                                        
+                                        .fitness_title {
+                                            font-size: 30pt;
+                                            color: white;
+                                            text-align: center;
+                                            padding-top: 5%;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .fitness_subtitle {
+                                            font-size: 78px;
+                                            color: white;
+                                            text-align: center;
+                                            margin-top: 5%;
+                                        }
+                                        
+                                        .wrapper_harrison1 {
+                                            display: flex;
+                                            width: 80%;
+                                            margin: 3% auto;
+                                        }
+                                        
+                                        .harrison_img11 {
+                                            width: 100%;
+                                            margin-top: 3%;
+                                            display: block;
+                                        }
+                                        
+                                        .harrison_text1 {
+                                            width: 50%;
+                                            text-align: left;
+                                            font-size: 13pt;
+                                            font-weight: bold;
+                                            margin-top: 3%;
+                                            margin-left: 3%;
+                                            margin-bottom: 6%;
+                                            font-size: 15pt;
+                                            line-height: 20pt;
+                                        }
+                                        
+                                        .harrison_img2 {
+                                            display: flex;
+                                            justify-content: center;
+                                            margin-bottom: 1%;
+                                        }
+                                        
+                                        .harrison_img3 {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+                                            margin-bottom: 5%;
+                                        }
+                                        
+                                        .harrison {
+                                            width: 80%;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .harrison_text {
+                                            text-align: left;
+                                            font-size: 13pt;
+                                            font-weight: bold;
+                                            width: 100%;
+                                            padding: 1em;
+                                        }
+                                        
+                                        .harrison_text11 {
+                                            text-align: left;
+                                            font-size: 13pt;
+                                            font-weight: bold;
+                                            margin-bottom: 2%;
+                                            width: 100%;
+                                        }
+                                        
+                                        .harrison_wrapper {
+                                            display: flex;
+                                            padding: 1em;
+                                            border-bottom: solid 1px lightgrey;
+                                        }
+                                        
+                                        .circle3 {
+                                            margin-right: 25px;
+                                            margin-left: 25px;
+                                            width: 30px;
+                                            height: 30px;
+                                            border-radius: 100%;
+                                            border: solid 2px black;
+                                            background: white;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .plus3 {
+                                            width: 15px;
+                                            height: 3px;
+                                            background: black;
+                                        }
+                                        
+                                        .plus4 {
+                                            width: 15px;
+                                            height: 3px;
+                                            background: black;
+                                            transform: rotate(90deg);
+                                            margin: 0 auto;
+                                            position: absolute;
+                                        }
+                                        
+                                        footer {
+                                            background-color: white;
+                                            color: white;
+                                            padding: 1em 0;
+                                        }
+                                        
+                                        ul {
+                                            display: flex;
+                                            width: 50%;
+                                            margin: 0 auto;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .foot a {
+                                            color: black;
+                                            text-decoration: none;
+                                            list-style-type: none;
+                                            font-weight: 800;
+                                        }
+                                        
+                                        .foot_text {
+                                            margin-top: 1%;
+                                            padding: 1em;
+                                            font-size: 10pt;
+                                            color: black;
+                                            text-align: center;
+                                        }
+                                        
+                                        @media screen and (min-width: 1600px) {
+                                            .tony_horton {
+                                                width: 100%;
+                                            }
+                                            .image1 {
+                                                display: block;
+                                                width: 80%;
+                                                margin: 0 auto;
+                                            }
+                                            .get_started1 {
+                                                width: 100%;
+                                            }
+                                            .image_protein {
+                                                width: 210px;
+                                                height: 240px;
+                                            }
+                                            .flexbox2 {
+                                                width: 100%;
+                                                display: flex;
+                                                position: relative;
+                                                justify-content: space-between;
+                                            }
+                                            .flex7 {
+                                                width: 12%;
+                                                height: 250px;
+                                                padding: 0 2% 0 2%;
+                                            }
+                                            .flex8 {
+                                                width: 12%;
+                                                height: 250px;
+                                                background-color: red;
+                                                padding: 0 2% 0 2%;
+                                            }
+                                            .flex9 {
+                                                width: 12%;
+                                                height: 250px;
+                                                padding: 0 2% 0 2%;
+                                            }
+                                            .flex10 {
+                                                width: 12%;
+                                                height: 250px;
+                                                padding: 0 2% 0 2%;
+                                            }
+                                            .flex11 {
+                                                width: 12%;
+                                                height: 250px;
+                                                padding: 0 2% 0 2%;
+                                            }
+                                            .flex12 {
+                                                width: 12%;
+                                                height: 250px;
+                                                padding: 0 2% 0 2%;
+                                            }
+                                            .text1 h1 {
+                                                margin: 60% 12% 0% 4%;
+                                            }
+                                            .text2 h1 {
+                                                margin: 60% 12% 0% 4%;
+                                            }
+                                            .text3 h1 {
+                                                margin: 60% 12% 0% 4%;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width: 1600px) {
+                                            .text1 h1 {
+                                                margin: 41% 0% 0% 15%;
+                                            }
+                                            .text2 h1 {
+                                                margin: 41% 0% 0% 15%;
+                                            }
+                                            .text3 h1 {
+                                                margin: 41% 0% 0% 15%;
+                                            }
+                                            .text1 p {
+                                                margin: 15% 0 auto 12%;
+                                            }
+                                            .text2 p {
+                                                margin: 15% 0 auto 12%;
+                                            }
+                                            .text3 p {
+                                                margin: 15% 0 auto 12%;
+                                            }
+                                            .programs_text2 {
+                                                font-size: 15pt;
+                                                margin-top: 7%;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width: 1400px) {
+                                            .flexb {
+                                                margin: 0 20%;
+                                            }
+                                            .logo_image {
+                                                top: -85%;
+                                            }
+                                            .prog_img4 {
+                                                width: 60%;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width: 1200px) {
+                                            .logo_image {
+                                                top: -90%;
+                                            }
+                                            .flexb {
+                                                margin: 0 15%;
+                                            }
+                                            .text1 h1 {
+                                                font-size: 8pt;
+                                            }
+                                            .text2 h1 {
+                                                font-size: 8pt;
+                                            }
+                                            .text3 h1 {
+                                                font-size: 8pt;
+                                            }
+                                            .text1 p {
+                                                margin: 15% 0 auto 12%;
+                                            }
+                                            .text2 p {
+                                                margin: 15% 0 auto 12%;
+                                            }
+                                            .text3 p {
+                                                margin: 15% 0 auto 12%;
+                                            }
+                                            .programs_text2 {
+                                                margin-top: 2%;
+                                            }
+                                            .button {
+                                                font-size: 25pt;
+                                                padding: 0.7em 1em;
+                                            }
+                                            .flex4 {
+                                                padding: 1em 0.7em 1em;
+                                            }
+                                            .flex5 {
+                                                padding: 0.5em 0.7em 0.5em;
+                                            }
+                                            .flex6 {
+                                                padding: 0.5em 0.7em 0.5em;
+                                            }
+                                            .fitness_text {
+                                                font-size: 14pt;
+                                                margin-bottom: 5%;
+                                            }
+                                            .img_rule2 {
+                                                max-width: 32%;
+                                            }
+                                            .descr {
+                                                font-size: 14pt;
+                                            }
+                                            .descr1 {
+                                                font-size: 14pt;
+                                            }
+                                            .process_icons img {
+                                                width: 62%;
+                                                padding-left: 20%;
+                                            }
+                                            .get_started1 {
+                                                background-position: 53% 55%;
+                                            }
+                                            .button1 {
+                                                font-size: 25pt;
+                                                padding: 0.7em 1em;
+                                            }
+                                            .container2 ul {
+                                                width: 70%;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width: 1000px) {
+                                            .logo_image {
+                                                top: -103%;
+                                            }
+                                            .flexb {
+                                                margin: 0 7%;
+                                            }
+                                            .text1 h1 {
+                                                font-size: 7pt;
+                                            }
+                                            .text2 h1 {
+                                                font-size: 7pt;
+                                            }
+                                            .text3 h1 {
+                                                font-size: 7pt;
+                                            }
+                                            .text1 p {
+                                                font-size: 8pt;
+                                            }
+                                            .text2 p {
+                                                font-size: 8pt;
+                                            }
+                                            .text3 p {
+                                                font-size: 8pt;
+                                            }
+                                            .prog_img1 {
+                                                display: none;
+                                            }
+                                            .prog_wrap {
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                text-align: center;
+                                                align-items: center;
+                                                margin-bottom: 5%;
+                                            }
+                                            .programs_text1 {
+                                                width: 100%;
+                                            }
+                                            .prog_img3 {
+                                                display: none;
+                                            }
+                                            .prog_img4 {
+                                                display: none;
+                                            }
+                                            .get_started {
+                                                padding-top: 5%;
+                                                font-size: 15pt;
+                                            }
+                                            .button {
+                                                font-size: 20pt;
+                                                padding: 0.5em 0.8em;
+                                            }
+                                            .wrapper_harrison1 {
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            .harrison_text1 {
+                                                width: 100%;
+                                            }
+                                            .harrison_img2 {
+                                                display: none;
+                                            }
+                                            .prog_wrap {
+                                                width: 100%;
+                                            }
+                                            .fitness_title {
+                                                width: 80%;
+                                                font-size: 25pt;
+                                            }
+                                            .fitness_subtitle {
+                                                font-size: 35pt;
+                                            }
+                                            .flex4 {
+                                                margin-top: 7%;
+                                                font-size: 13.8pt;
+                                                padding: 2em 0.7em 2em;
+                                            }
+                                            .flex5 {
+                                                margin-top: 7%;
+                                                font-size: 13.8pt;
+                                                padding: 2em 0.7em 2em;
+                                            }
+                                            .flex6 {
+                                                margin-top: 7%;
+                                                font-size: 13.8pt;
+                                                padding: 2em 0.7em 2em;
+                                            }
+                                            .fitness_img img {
+                                                display: none;
+                                            }
+                                            .fitness_wrapper {
+                                                width: 90%;
+                                            }
+                                            .fitness_text {
+                                                margin-top: 5%;
+                                                font-size: 13pt;
+                                                text-align: center;
+                                            }
+                                            .img_rule1 {
+                                                display: none;
+                                            }
+                                            .img_rule2 {
+                                                display: none;
+                                            }
+                                            .img_rule3 {
+                                                display: none;
+                                            }
+                                            .products_title {
+                                                font-size: 40pt;
+                                            }
+                                            .products_subtitle {
+                                                font-size: 12pt;
+                                            }
+                                            .circle {
+                                                display: none;
+                                            }
+                                            .circle1 {
+                                                display: none;
+                                            }
+                                            .circle3 {
+                                                display: none;
+                                            }
+                                            .plus1 {
+                                                display: none;
+                                            }
+                                            .plus2 {
+                                                display: none;
+                                            }
+                                            .plus3 {
+                                                display: none;
+                                            }
+                                            .plus4 {
+                                                display: none;
+                                            }
+                                            .product_img {
+                                                width: 90%;
+                                                height: 55%;
+                                                margin: 50% auto 0 auto;
+                                            }
+                                            .descr {
+                                                text-align: start;
+                                            }
+                                            .process_title {
+                                                font-size: 40pt;
+                                            }
+                                            .process_subtitle {
+                                                font-size: 40pt;
+                                            }
+                                            .process_descr {
+                                                font-size: 14pt;
+                                            }
+                                            .process_wrapper {
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 60%;
+                                                margin: 0 17%;
+                                                float: left;
+                                            }
+                                            .process_icons img {
+                                                width: 30%;
+                                                padding-left: 0%;
+                                            }
+                                            .process_icons {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            .icon_title {
+                                                font-size: 16pt;
+                                                margin-top: 5%;
+                                                margin-bottom: 1%;
+                                            }
+                                            .icon_subtitle {
+                                                font-size: 13pt;
+                                                width: 90%;
+                                                margin: 0 auto 5%;
+                                            }
+                                            .get_started1 h1 {
+                                                font-size: 40pt;
+                                            }
+                                            .button1 {
+                                                font-size: 20pt;
+                                                padding: 0.5em 0.8em;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width: 800px) {
+                                            #logo h1 {
+                                                margin: -3px 0 0 100px;
+                                            }
+                                            .logo_image {
+                                                top: -151%;
+                                            }
+                                            nav ol li a {
+                                                padding: 0em 0.4em;
+                                            }
+                                            .flexb {
+                                                margin: 0;
+                                            }
+                                            .flexbox {
+                                                width: 100%;
+                                                flex-direction: column;
+                                                float: left;
+                                            }
+                                            .flex1 {
+                                                width: 80%;
+                                                margin: -1% auto 1%;
+                                            }
+                                            .flex2 {
+                                                width: 80%;
+                                                margin: -1% auto 1%;
+                                            }
+                                            .flex3 {
+                                                width: 80%;
+                                                margin: -1% auto 1%;
+                                            }
+                                            .image2 {
+                                                width: 25%;
+                                                height: 100px;
+                                                margin: auto;
+                                            }
+                                            .image3 {
+                                                width: 25%;
+                                                height: 100px;
+                                                margin: auto;
+                                            }
+                                            .image4 {
+                                                width: 25%;
+                                                height: 100px;
+                                                margin: auto;
+                                            }
+                                            .text1 h1 {
+                                                margin: 40% 5% 5% 5%;
+                                                font-size: 14pt;
+                                            }
+                                            .text1 p {
+                                                font-size: 9pt;
+                                                margin: 15% 30% 30% 10%;
+                                                cursor: pointer;
+                                            }
+                                            .text2 h1 {
+                                                margin: 40% 5% 5% 5%;
+                                                font-size: 14pt;
+                                            }
+                                            .text2 p {
+                                                font-size: 9pt;
+                                                margin: 15% 30% 30% 10%;
+                                                cursor: pointer;
+                                            }
+                                            .text3 h1 {
+                                                margin: 40% 5% 5% 5%;
+                                                font-size: 14pt;
+                                            }
+                                            .text3 p {
+                                                font-size: 9pt;
+                                                margin: 15% 30% 30% 10%;
+                                                cursor: pointer;
+                                            }
+                                            .prog_img1 {
+                                                display: none;
+                                            }
+                                            .prog_wrap {
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                text-align: center;
+                                                align-items: center;
+                                                margin-bottom: 5%;
+                                            }
+                                            .programs_text1 {
+                                                width: 100%;
+                                            }
+                                            .programs_text2 {
+                                                width: 150%;
+                                            }
+                                            .prog_img3 {
+                                                display: none;
+                                            }
+                                            .prog_img4 {
+                                                display: none;
+                                            }
+                                            .get_started {
+                                                padding-top: 5%;
+                                                font-size: 15pt;
+                                            }
+                                            .button {
+                                                font-size: 20pt;
+                                                padding: 0.5em 0.8em;
+                                            }
+                                            .har_img3 {
+                                                display: none;
+                                            }
+                                            .wrapper_harrison1 {
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            .harrison_text1 {
+                                                width: 100%;
+                                            }
+                                            .harrison_img2 {
+                                                display: none;
+                                            }
+                                            .prog_wrap {
+                                                width: 100%;
+                                            }
+                                            .fitness_title {
+                                                width: 80%;
+                                                font-size: 20pt;
+                                            }
+                                            .fitness_subtitle {
+                                                font-size: 30pt;
+                                            }
+                                            .flexbox1 {
+                                                flex-direction: column;
+                                                justify-content: center;
+                                            }
+                                            .flex4 {
+                                                font-size: 20pt;
+                                                margin: 0 auto;
+                                                width: 80%;
+                                                border: 1px solid black;
+                                                padding: 1em 0;
+                                            }
+                                            .flex5 {
+                                                font-size: 20pt;
+                                                margin: 0 auto;
+                                                width: 80%;
+                                                border: 1px solid black;
+                                                padding: 1em 0;
+                                            }
+                                            .flex6 {
+                                                font-size: 20pt;
+                                                padding: 1em 0;
+                                                margin: 0 auto;
+                                                width: 80%;
+                                                border: 1px solid black;
+                                            }
+                                            .fitness_img img {
+                                                display: none;
+                                            }
+                                            .fitness_wrapper {
+                                                width: 90%;
+                                            }
+                                            .fitness_text {
+                                                margin-top: 5%;
+                                                font-size: 13pt;
+                                                text-align: center;
+                                            }
+                                            .img_rule1 {
+                                                display: none;
+                                            }
+                                            .img_rule2 {
+                                                display: none;
+                                            }
+                                            .img_rule3 {
+                                                display: none;
+                                            }
+                                            .products_title {
+                                                font-size: 40pt;
+                                            }
+                                            .products_subtitle {
+                                                font-size: 12pt;
+                                            }
+                                            .circle {
+                                                display: none;
+                                            }
+                                            .circle1 {
+                                                display: none;
+                                            }
+                                            .circle3 {
+                                                display: none;
+                                            }
+                                            .plus1 {
+                                                display: none;
+                                            }
+                                            .plus2 {
+                                                display: none;
+                                            }
+                                            .plus3 {
+                                                display: none;
+                                            }
+                                            .plus4 {
+                                                display: none;
+                                            }
+                                            .product_img {
+                                                width: 90%;
+                                                height: 50%;
+                                                margin-top: 65%;
+                                            }
+                                            .descr {
+                                                text-align: start;
+                                            }
+                                            .process_title {
+                                                font-size: 40pt;
+                                            }
+                                            .process_subtitle {
+                                                font-size: 40pt;
+                                            }
+                                            .process_descr {
+                                                font-size: 14pt;
+                                            }
+                                            .process_wrapper {
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 60%;
+                                                margin: 0 17%;
+                                                float: left;
+                                            }
+                                            .process_icons img {
+                                                width: 30%;
+                                                padding-left: 0%;
+                                            }
+                                            .process_icons {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            .icon_title {
+                                                font-size: 16pt;
+                                                margin-top: 5%;
+                                                margin-bottom: 1%;
+                                            }
+                                            .icon_subtitle {
+                                                font-size: 13pt;
+                                                width: 90%;
+                                                margin: 0 auto 5%;
+                                            }
+                                            .get_started1 h1 {
+                                                font-size: 40pt;
+                                            }
+                                            .button1 {
+                                                font-size: 20pt;
+                                                padding: 0.5em 0.8em;
+                                            }
+                                            .container2 ul {
+                                                width: 90%;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width: 600px) {
+                                            .container {
+                                                float: left;
+                                            }
+                                            .logo_image {
+                                                width: 9%;
+                                                padding-left: 5%;
+                                            }
+                                            .logo_image {
+                                                top: -40%;
+                                            }
+                                            #logo h1 {
+                                                margin: 0 auto;
+                                            }
+                                            nav ol {
+                                                font-size: 8pt;
+                                            }
+                                            .flexb {
+                                                background-size: cover;
+                                                margin: 0 auto;
+                                                justify-content: center;
+                                                flex-direction: column;
+                                            }
+                                            .tony_horton {
+                                                margin: 1% auto;
+                                            }
+                                            .image1 {
+                                                display: block;
+                                                width: 100%;
+                                                margin: 5% auto;
+                                            }
+                                            .flexbox {
+                                                width: 100%;
+                                                flex-direction: column;
+                                                float: left;
+                                            }
+                                            .flex1 {
+                                                width: 80%;
+                                                margin: -1% auto 1%;
+                                            }
+                                            .flex2 {
+                                                width: 80%;
+                                                margin: -1% auto 1%;
+                                            }
+                                            .flex3 {
+                                                width: 80%;
+                                                margin: -1% auto 1%;
+                                            }
+                                            .image2 {
+                                                width: 25%;
+                                                height: 100px;
+                                                margin: auto;
+                                            }
+                                            .image3 {
+                                                width: 25%;
+                                                height: 100px;
+                                                margin: auto;
+                                            }
+                                            .image4 {
+                                                width: 25%;
+                                                height: 100px;
+                                                margin: auto;
+                                            }
+                                            .text1 h1 {
+                                                margin: 40% 5% 5% 5%;
+                                                font-size: 14pt;
+                                            }
+                                            .text1 p {
+                                                font-size: 9pt;
+                                                margin: 15% 30% 30% 10%;
+                                                cursor: pointer;
+                                            }
+                                            .text2 h1 {
+                                                margin: 40% 5% 5% 5%;
+                                                font-size: 14pt;
+                                            }
+                                            .text2 p {
+                                                font-size: 9pt;
+                                                margin: 15% 30% 30% 10%;
+                                                cursor: pointer;
+                                            }
+                                            .text3 h1 {
+                                                margin: 40% 5% 5% 5%;
+                                                font-size: 14pt;
+                                            }
+                                            .text3 p {
+                                                font-size: 9pt;
+                                                margin: 15% 30% 30% 10%;
+                                                cursor: pointer;
+                                            }
+                                            .container_prog {
+                                                width: 100%;
+                                            }
+                                            .prog_wrap {
+                                                margin: 0 auto;
+                                                flex-direction: column;
+                                            }
+                                            .programs_text1 {
+                                                text-align: center;
+                                                margin: 5% auto 0;
+                                                width: 100%;
+                                            }
+                                            .programs_text2 {
+                                                text-align: center;
+                                                font-size: 13pt;
+                                                margin-top: 4%;
+                                                width: 100%;
+                                            }
+                                            .prog_images {
+                                                flex-direction: column;
+                                                float: left;
+                                            }
+                                            .prog_img1 {
+                                                display: none;
+                                            }
+                                            .prog_img2 {
+                                                margin-top: 3%;
+                                                margin-bottom: 2%;
+                                                width: 100%;
+                                                height: 300px;
+                                                box-shadow: none;
+                                            }
+                                            .prog_img3 {
+                                                display: none;
+                                            }
+                                            .prog_img4 {
+                                                display: none;
+                                            }
+                                            .get_started {
+                                                float: left;
+                                                width: 100%;
+                                                font-size: 15pt;
+                                                padding: 10% 0 0 0;
+                                                margin-top: 1%;
+                                            }
+                                            .button {
+                                                width: 30%;
+                                                font-size: 15pt;
+                                                padding: 0.5em 0.7em;
+                                                margin: 8% auto 5%;
+                                            }
+                                            .wrapper_harrison1 {
+                                                flex-direction: column;
+                                                width: 100%;
+                                                margin: 0;
+                                                margin-top: 5%;
+                                                float: left;
+                                            }
+                                            .harrison_img11 {
+                                                width: 100%;
+                                                margin-top: 1%;
+                                            }
+                                            .harrison_text1 {
+                                                width: 100%;
+                                                text-align: center;
+                                                font-size: 12pt;
+                                                font-weight: bold;
+                                                line-height: 20pt;
+                                                margin: 0%;
+                                            }
+                                            .harrison_img2 {
+                                                display: none;
+                                            }
+                                            .harrison_img3 {
+                                                width: 100%;
+                                                float: left;
+                                                margin: 0;
+                                                margin-bottom: 1%;
+                                            }
+                                            .har_img3 {
+                                                width: 100%;
+                                                margin: 0px;
+                                            }
+                                            .harrison {
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            .harrison_wrapper {
+                                                float: left;
+                                                display: flex;
+                                                margin-top: 1%;
+                                            }
+                                            .harrison_text {
+                                                font-size: 10pt;
+                                                width: 100%;
+                                            }
+                                            .harrison_text11 {
+                                                text-align: left;
+                                                font-size: 10pt;
+                                                font-weight: bold;
+                                                width: 100%;
+                                                margin-bottom: 1%;
+                                                margin-top: 0px;
+                                            }
+                                            .fitnes_from_within {
+                                                width: 100%;
+                                                margin-top: 1%;
+                                                float: left;
+                                            }
+                                            .fitness_title {
+                                                font-size: 20pt;
+                                                text-align: center;
+                                                padding-top: 5%;
+                                            }
+                                            .fitness_subtitle {
+                                                font-size: 40pt;
+                                                color: white;
+                                                text-align: center;
+                                                margin-top: 10%;
+                                                margin-bottom: 5%;
+                                            }
+                                            .flexbox1 {
+                                                flex-direction: column;
+                                                justify-content: center;
+                                            }
+                                            .flex4 {
+                                                font-size: 20pt;
+                                                margin: 0 auto;
+                                                width: 80%;
+                                                border: 1px solid black;
+                                                padding: 1em 0;
+                                            }
+                                            .flex5 {
+                                                font-size: 20pt;
+                                                margin: 0 auto;
+                                                width: 80%;
+                                                border: 1px solid black;
+                                                padding: 1em 0;
+                                            }
+                                            .flex6 {
+                                                font-size: 20pt;
+                                                padding: 1em 0;
+                                                margin: 0 auto;
+                                                width: 80%;
+                                                border: 1px solid black;
+                                            }
+                                            .fitness_wrapper {
+                                                width: 96%;
+                                                margin: 0 auto;
+                                                padding-left: 2%;
+                                                padding-right: 2%;
+                                            }
+                                            .fitness_text {
+                                                float: left;
+                                                text-align: left;
+                                                width: 100%;
+                                                margin-top: 5%;
+                                                margin-bottom: 5%;
+                                                color: white;
+                                                font-size: 12pt;
+                                            }
+                                            .fitness_img img {
+                                                display: none;
+                                            }
+                                            .rule1 {
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            .rule_wrap1 {
+                                                flex-direction: column;
+                                                width: 100%;
+                                                padding-top: 1em;
+                                                padding-bottom: 1em;
+                                                float: left;
+                                            }
+                                            .img_rule1 {
+                                                display: none;
+                                            }
+                                            .rule_wrapper1 {
+                                                margin-left: 1%;
+                                            }
+                                            .rule_title1 {
+                                                font-size: 20pt;
+                                            }
+                                            .rule_subtitle1 {
+                                                font-size: 12pt;
+                                                margin-top: 5%;
+                                            }
+                                            .rule2 {
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            .rule_wrap2 {
+                                                padding-top: 5%;
+                                                width: 100%;
+                                                margin-top: 0px;
+                                                float: left;
+                                            }
+                                            .img_rule2 {
+                                                display: none;
+                                            }
+                                            .rule_wrapper2 {
+                                                margin-left: 1%;
+                                            }
+                                            .rule_title2 {
+                                                font-size: 20pt;
+                                            }
+                                            .rule_subtitle2 {
+                                                font-size: 12pt;
+                                                margin-top: 5%;
+                                                margin-bottom: 3%;
+                                            }
+                                            .rule3 {
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            .rule_wrap3 {
+                                                padding-top: 5%;
+                                                width: 100%;
+                                                margin-top: 0px;
+                                                float: left;
+                                            }
+                                            .img_rule3 {
+                                                display: none;
+                                            }
+                                            .rule_wrapper3 {
+                                                margin-left: 1%;
+                                            }
+                                            .rule_title3 {
+                                                font-size: 20pt;
+                                            }
+                                            .rule_subtitle3 {
+                                                font-size: 12pt;
+                                                margin-top: 5%;
+                                                margin-bottom: 3%;
+                                            }
+                                            .products {
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            .products_title {
+                                                font-size: 25pt;
+                                                padding-top: 5%;
+                                            }
+                                            .products_subtitle {
+                                                font-size: 13pt;
+                                                color: black;
+                                                text-align: center;
+                                                width: 100%;
+                                                margin: 0 auto;
+                                                margin-top: 5%;
+                                            }
+                                            .flexbox2 {
+                                                flex-direction: row;
+                                                justify-content: space-between;
+                                                width: 100%;
+                                                flex-wrap: wrap;
+                                            }
+                                            .flex7 {
+                                                padding: 0;
+                                            }
+                                            .flex8 {
+                                                padding: 0;
+                                            }
+                                            .flex9 {
+                                                padding: 0;
+                                            }
+                                            .flex10 {
+                                                padding: 0;
+                                            }
+                                            .flex11 {
+                                                padding: 0;
+                                            }
+                                            .flex12 {
+                                                padding: 0;
+                                            }
+                                            .wrapper {
+                                                width: 100%;
+                                                float: left;
+                                            }
+                                            .wrapper_info {
+                                                margin-top: 5%;
+                                            }
+                                            .wrapper_info1 {
+                                                margin-top: 5%;
+                                            }
+                                            .descr {
+                                                font-size: 10pt;
+                                                text-align: center;
+                                            }
+                                            .descr1 {
+                                                font-size: 10pt;
+                                                text-align: center;
+                                            }
+                                            /* .block1 {
+                    display: none;
+                } */
+                                            .circle {
+                                                display: none;
+                                            }
+                                            .circle1 {
+                                                display: none;
+                                            }
+                                            .plus1 {
+                                                display: none;
+                                            }
+                                            .plus2 {
+                                                display: none;
+                                            }
+                                            .plus3 {
+                                                display: none;
+                                            }
+                                            .plus4 {
+                                                display: none;
+                                            }
+                                            .block2 {
+                                                width: 100%;
+                                                padding: 1em;
+                                            }
+                                            .product_img {
+                                                display: block;
+                                                width: 70%;
+                                                margin-top: 15%;
+                                                height: 70%;
+                                            }
+                                            /* .block3 {
+                    display: none;
+                } */
+                                            .process_title {
+                                                width: 100%;
+                                                font-size: 20pt;
+                                                margin-top: 5%;
+                                                margin-bottom: 3%;
+                                            }
+                                            .process_subtitle {
+                                                width: 100%;
+                                                font-size: 20pt;
+                                                margin-top: 1%;
+                                                margin-bottom: 5%;
+                                            }
+                                            .process_descr {
+                                                width: 100%;
+                                                font-size: 13pt;
+                                                margin-top: 3%;
+                                                margin: 0 auto;
+                                                margin-bottom: 5%;
+                                                float: left;
+                                            }
+                                            .process_wrapper {
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 80%;
+                                                margin: 0 5%;
+                                                float: left;
+                                            }
+                                            .process_icons img {
+                                                width: 30%;
+                                                padding-left: 0%;
+                                            }
+                                            .process_icons {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            .icon_title {
+                                                font-size: 16pt;
+                                                margin-top: 5%;
+                                                margin-bottom: 1%;
+                                            }
+                                            .icon_subtitle {
+                                                font-size: 13pt;
+                                                width: 90%;
+                                                margin: 0 auto 5%;
+                                            }
+                                            .get_started1 {
+                                                /* background-color: black; */
+                                                float: left;
+                                                width: 100%;
+                                                font-size: 15pt;
+                                                padding: 10% 0 0 0;
+                                                margin-top: 1%;
+                                            }
+                                            .button1 {
+                                                width: 30%;
+                                                font-size: 15pt;
+                                                padding: 0.5em 0.7em;
+                                                margin: 1% auto 5%;
+                                            }
+                                            .get_started1 h1 {
+                                                padding-top: 0;
+                                                margin: 0;
+                                                margin-top: -10px;
+                                                font-size: 20pt;
+                                            }
+                                            .get_started1 p {
+                                                margin: 3% 0 0;
+                                                font-size: 12pt;
+                                            }
+                                            footer {
+                                                align-items: center;
+                                                padding: 1em 0;
+                                            }
+                                            ul {
+                                                float: left;
+                                                width: 94%;
+                                                height: 50px;
+                                                margin: 0;
+                                                justify-content: center;
+                                                padding-left: 0px;
+                                                padding-bottom: 3%;
+                                                align-items: center;
+                                                text-align: center;
+                                            }
+                                            ul a {
+                                                padding: 0px;
+                                                max-width: 100%;
+                                            }
+                                            .foot a {
+                                                float: left;
+                                                padding: 1em 1em;
+                                                font-size: 10pt;
+                                                color: black;
+                                                text-decoration: none;
+                                                list-style-type: none;
+                                                font-weight: 800;
+                                            }
+                                            .foot_text {
+                                                float: left;
+                                                width: 90%;
+                                                font-size: 10pt;
+                                                color: black;
+                                                text-align: center;
+                                            }
+                                        }
+                                        
+                                        .feedback {
+                                            display: none;
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        form {
+                                            max-width: 600px;
+                                            margin: 0 auto;
+                                            padding: 20px;
+                                            border: 1px solid #ccc;
+                                            border-radius: 5px;
+                                            background-color: #f4f4f4;
+                                        }
+                                        
+                                        label {
+                                            color: black;
+                                            display: inline-block;
+                                            margin-bottom: 5px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        #main {
+                                            color: blue;
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        input[type="text"],
+                                        input[type="email"],
+                                        input[type="tel"],
+                                        textarea {
+                                            display: block;
+                                            width: 100%;
+                                            padding: 10px;
+                                            margin-bottom: 10px;
+                                            border-radius: 5px;
+                                            border: 1px solid #ccc;
+                                            box-sizing: border-box;
+                                            font-family: inherit;
+                                            font-size: inherit;
+                                        }
+                                        
+                                        input[type="checkbox"] {
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        button[type="submit"] {
+                                            display: block;
+                                            width: 100%;
+                                            padding: 10px;
+                                            margin-top: 10px;
+                                            border-radius: 5px;
+                                            border: none;
+                                            background-color: #007bff;
+                                            color: #fff;
+                                            font-family: inherit;
+                                            font-size: inherit;
+                                            cursor: pointer;
+                                            transition: background-color 0.2s ease-in-out;
+                                        }
+                                        
+                                        button[type="submit"]:hover {
+                                            background-color: #0069d9;
+                                        }
+                                        
+                                        small {
+                                            display: block;
+                                            margin-top: -10px;
+                                            margin-bottom: 10px;
+                                            font-size: 80%;
+                                            color: #888;
+                                        }
